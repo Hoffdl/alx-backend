@@ -17,7 +17,7 @@ class Server:
 
     def dataset(self) -> List[List]:
         """
-        Reads from csv file and returns the datasete.
+        Reads from csv file and returns the dataset.
         Returns:
             List[List]: The dataset.
         """
