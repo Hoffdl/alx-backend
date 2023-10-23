@@ -30,7 +30,7 @@ class Server:
         return self.__dataset
 
     @staticmethod
-    def asser_positive_integer_type(value: int) -> None:
+    def assert_positive_integer_type(value: int) -> None:
         """
         Asserts that the value is a positive integer.
         Args:
