@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-
-"""Defines class Server that paginates a database of popular baby names"""
+"""
+Defines class Server that paginates a database of popular baby names
+"""
 import csv
 import math
 from typing import List, Tuple
@@ -54,7 +55,6 @@ class Server:
         Return:
             list of lists containing required data from the dataset
         """
-
         assert type(page) is int and page > 0
         assert type(page_size) is int and page_size > 0
 
